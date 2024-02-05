@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Activity.HomeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="28sp"
+        android:textColor="@color/blue"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="18dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="5dp"
+        android:text="Calculator"
+        android:id="@+id/calculatorButton"
+        android:onClick="onclickCalculator"
+        android:backgroundTint="@color/blue"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="5dp"
+        android:text="Registration Form"
+        android:id="@+id/formButton"
+        android:onClick="onclickForm"
+        android:backgroundTint="@color/blue"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="5dp"
+        android:text="Recycler View"
+        android:onClick="onclickView"
+        android:backgroundTint="@color/blue"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="5dp"
+        android:text="Dynamic Fragment"
+        android:id="@+id/DFragmentButton"
+        android:onClick="onclickDFragment"
+        android:backgroundTint="@color/blue"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="5dp"
+        android:text="Customer Database"
+        android:id="@+id/customerDb"
+        android:onClick="onclickCustomerDb"
+        android:backgroundTint="@color/blue"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="60dp"
+        android:text="Get API"
+        android:id="@+id/APIGetButton"
+        android:onClick="onclickAPI"
+        android:backgroundTint="@color/blue"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="60dp"
+        android:text="POST API"
+        android:id="@+id/APIPostButton"
+        android:onClick="onclickAPI"
+        android:backgroundTint="@color/blue"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="60dp"
+        android:text="Notification"
+        android:id="@+id/show_notification_button"
+        android:onClick="onclickAPI"
+        android:backgroundTint="@color/blue"
+        />
+    <Button
+        android:id="@+id/showStatic"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="60dp"
+        android:onClick="onclickStaticFragment"
+        android:text="Static Fragment"
+        android:backgroundTint="@color/blue"/>
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/DFragmentButton"
+        android:layout_marginTop="20dp" />
+
+
+
+
+
+</LinearLayout>
+

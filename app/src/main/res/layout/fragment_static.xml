@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Fragments.StaticFragment"
+    android:background="@color/blue"
+    android:orientation="horizontal">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/fragment_header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Static Fragment"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:paddingTop="10dp"
+        android:paddingLeft="130dp"
+        />
+    <TextView
+        android:id="@+id/fragment2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Static Fragment 2"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:paddingTop="10dp"
+        android:paddingLeft="130dp"
+        />
+
+
+</LinearLayout>

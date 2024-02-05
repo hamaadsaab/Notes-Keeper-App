@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Appify</string>
+    <string name="hello">Hello</string>
+    <string name="huma">Huma</string>
+    <string name="search_elements">Search elements</string>
+    <string name="documents">Documents</string>
+    <string name="form">Form</string>
+    <string name="calculator">Calculator</string>
+    <string name="help_desk">Help Desk</string>
+    <string name="trending">Trending</string>
+    <string name="terms"> By accessing and using our services, you agree to comply with the following terms and conditions:
+
+    1. **Usage Restrictions:** Users must adhere to applicable laws and regulations. Unauthorized use or access is prohibited.
+
+    2. **Privacy:** We respect user privacy. Personal information collected is handled in accordance with our privacy policy.
+
+    3. **Intellectual Property:** All content and materials on the platform are protected by intellectual property laws. Users are not allowed to reproduce or distribute without permission.
+
+    4. **Disclaimer:** The platform provides information "as is," and we disclaim any warranties. Users use the service at their own risk.
+
+        Please review the complete terms and conditions for a comprehensive understanding.</string>
+
+
+</resources>
